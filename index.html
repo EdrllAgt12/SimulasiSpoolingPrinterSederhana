@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simulasi Spooling Printer</h1>
+
+    <div id="buttons">
+        <button onclick="add()">Tambah Dokumen</button>
+        <button onclick="Print()">Mulai</button>
+        <button onclick="pausePrint()">Jeda</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+
+    <div id="printer-status">Status Printer: <span id="status-text">Idle</span></div>
+
+    <h2>Antrian :</h2>
+    <div id="antri"></div>
+
+    <h2>Log Simulasi:</h2>
+    <div id="log"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
